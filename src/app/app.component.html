@@ -1,0 +1,13 @@
+<table>
+  <caption>
+    A summary of the UK's most famous punk bands
+  </caption>
+  <thead>
+    <tr class="table-header" *ngFor="let header of headers[0]; let i = index">
+      <th>{{ header }}</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let item of allDatas; let i = index">
+      <td *ngFor="let test of allDatas[i]; let i = index">{{ test }}</td>
+  </tbody>
+</table>

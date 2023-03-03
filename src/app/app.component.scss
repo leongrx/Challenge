@@ -1,0 +1,35 @@
+$headerColor: #00AFA3;
+$border-bottom-color: rgba(0, 0, 0, 0.12);
+$alternateColor: rgba(0, 179, 166, 0.04);
+
+thead {
+    display: flex;
+    background-color: $headerColor;
+    color: white;
+    padding: 1.5rem;
+    border: 1px solid black;
+}
+
+th {
+    text-align: left;
+    width: 150px;
+    padding: 0 12px;
+    font-weight: 400;
+}
+
+tbody {
+    display: flex;
+    padding: 1.5rem;
+}
+
+td {
+    width: 150px;
+    padding: 0 12px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+table {
+    width: 90%;
+    padding: 20px;
+}
